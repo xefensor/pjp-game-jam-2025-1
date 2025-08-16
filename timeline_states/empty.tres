@@ -2,8 +2,7 @@
 
 [ext_resource type="Script" uid="uid://bl104gyswunnu" path="res://State.gd" id="1_ykd8w"]
 [ext_resource type="AudioStream" uid="uid://b4orjycdsc1oe" path="res://sounds/bell.wav" id="2_ulh75"]
-
-[sub_resource type="AudioStream" id="AudioStream_ulh75"]
+[ext_resource type="AudioStream" uid="uid://dodyqmf2os4l1" path="res://sounds/group_talking.wav" id="3_j33y7"]
 
 [sub_resource type="AudioStream" id="AudioStream_j33y7"]
 
@@ -78,7 +77,7 @@ sounds = Dictionary[String, AudioStream]({
 "T": SubResource("AudioStream_ptuuj"),
 "U": SubResource("AudioStream_tsiu6"),
 "V": SubResource("AudioStream_scu8n"),
-"W": SubResource("AudioStream_ulh75"),
+"W": ExtResource("3_j33y7"),
 "X": SubResource("AudioStream_h0a65"),
 "Y": SubResource("AudioStream_8q0py"),
 "Z": SubResource("AudioStream_mtrid")

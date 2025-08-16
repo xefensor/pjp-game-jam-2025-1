@@ -16,6 +16,11 @@ var max_values: Array[float] = []
 func _draw() -> void:
 	@warning_ignore("integer_division")
 	var w := WIDTH / VU_COUNT
+	
+	if not %KeyAudio.playing:
+		min_values.fill(0.0)
+		max_values.fill(0.0)
+	
 	for i in VU_COUNT:
 		var min_height = min_values[i]
 		var max_height = max_values[i]

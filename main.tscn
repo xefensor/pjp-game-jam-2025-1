@@ -8,7 +8,7 @@
 [ext_resource type="Resource" uid="uid://cv6troa5p5hyv" path="res://timeline_states/empty.tres" id="4_5vw27"]
 [ext_resource type="ButtonGroup" uid="uid://dwk4xvafmp4yx" path="res://keys_button_group.tres" id="6_7mycd"]
 [ext_resource type="AudioStream" uid="uid://b4orjycdsc1oe" path="res://sounds/bell.wav" id="7_272bh"]
-[ext_resource type="Script" uid="uid://cl418v4hrrpf5" path="res://node_2d.gd" id="9_kek77"]
+[ext_resource type="Script" uid="uid://cl418v4hrrpf5" path="res://spectrum.gd" id="9_kek77"]
 
 [node name="Main" type="Control"]
 layout_mode = 3
@@ -28,10 +28,10 @@ anchor_left = 0.5
 anchor_top = 1.0
 anchor_right = 0.5
 anchor_bottom = 1.0
-offset_left = -403.0
-offset_top = -546.0
-offset_right = -403.0
-offset_bottom = -546.0
+offset_left = -402.0
+offset_top = -550.0
+offset_right = -402.0
+offset_bottom = -550.0
 grow_horizontal = 2
 grow_vertical = 0
 size_flags_horizontal = 4
