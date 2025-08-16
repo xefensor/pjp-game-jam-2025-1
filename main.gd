@@ -38,3 +38,13 @@ func _on_toggled_name(toggled_on: bool, _name: String):
 			if selected_char == _name:
 				%KeyAudio.stop()
 		
+
+
+func _on_key_audio_finished() -> void:
+	if selected_char.is_empty():
+		return
+		
+	for button in get_tree().get_nodes_in_group("Buttons"):
+			if button.name == selected_char and button.button_pressed:
+				button.button_pressed = false
+				break

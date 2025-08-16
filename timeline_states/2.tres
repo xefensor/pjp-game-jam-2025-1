@@ -1,0 +1,86 @@
+[gd_resource type="Resource" script_class="State" load_steps=28 format=3 uid="uid://wx7x6l7cp8k8"]
+
+[ext_resource type="Script" uid="uid://bl104gyswunnu" path="res://State.gd" id="1_41q21"]
+[ext_resource type="AudioStream" uid="uid://f6ess1pec02n" path="res://sounds/bell_chimes_45.wav" id="2_q6wwp"]
+
+[sub_resource type="AudioStream" id="AudioStream_2p0yg"]
+
+[sub_resource type="AudioStream" id="AudioStream_21wap"]
+
+[sub_resource type="AudioStream" id="AudioStream_mts3j"]
+
+[sub_resource type="AudioStream" id="AudioStream_caxti"]
+
+[sub_resource type="AudioStream" id="AudioStream_j33y7"]
+
+[sub_resource type="AudioStream" id="AudioStream_5le6p"]
+
+[sub_resource type="AudioStream" id="AudioStream_t7ymc"]
+
+[sub_resource type="AudioStream" id="AudioStream_clb4e"]
+
+[sub_resource type="AudioStream" id="AudioStream_wsywy"]
+
+[sub_resource type="AudioStream" id="AudioStream_b13at"]
+
+[sub_resource type="AudioStream" id="AudioStream_f1ckc"]
+
+[sub_resource type="AudioStream" id="AudioStream_0h70q"]
+
+[sub_resource type="AudioStream" id="AudioStream_qeaaa"]
+
+[sub_resource type="AudioStream" id="AudioStream_ptr65"]
+
+[sub_resource type="AudioStream" id="AudioStream_q1rqy"]
+
+[sub_resource type="AudioStream" id="AudioStream_ykd8w"]
+
+[sub_resource type="AudioStream" id="AudioStream_vxpt6"]
+
+[sub_resource type="AudioStream" id="AudioStream_dllyh"]
+
+[sub_resource type="AudioStream" id="AudioStream_ptuuj"]
+
+[sub_resource type="AudioStream" id="AudioStream_tsiu6"]
+
+[sub_resource type="AudioStream" id="AudioStream_scu8n"]
+
+[sub_resource type="AudioStream" id="AudioStream_ulh75"]
+
+[sub_resource type="AudioStream" id="AudioStream_h0a65"]
+
+[sub_resource type="AudioStream" id="AudioStream_8q0py"]
+
+[sub_resource type="AudioStream" id="AudioStream_mtrid"]
+
+[resource]
+script = ExtResource("1_41q21")
+sounds = Dictionary[String, AudioStream]({
+"A": SubResource("AudioStream_2p0yg"),
+"B": SubResource("AudioStream_21wap"),
+"C": SubResource("AudioStream_mts3j"),
+"D": SubResource("AudioStream_caxti"),
+"E": SubResource("AudioStream_j33y7"),
+"F": SubResource("AudioStream_5le6p"),
+"G": SubResource("AudioStream_t7ymc"),
+"H": SubResource("AudioStream_clb4e"),
+"I": SubResource("AudioStream_wsywy"),
+"J": SubResource("AudioStream_b13at"),
+"K": ExtResource("2_q6wwp"),
+"L": SubResource("AudioStream_f1ckc"),
+"M": SubResource("AudioStream_0h70q"),
+"N": SubResource("AudioStream_qeaaa"),
+"O": SubResource("AudioStream_ptr65"),
+"P": SubResource("AudioStream_q1rqy"),
+"Q": SubResource("AudioStream_ykd8w"),
+"R": SubResource("AudioStream_vxpt6"),
+"S": SubResource("AudioStream_dllyh"),
+"T": SubResource("AudioStream_ptuuj"),
+"U": SubResource("AudioStream_tsiu6"),
+"V": SubResource("AudioStream_scu8n"),
+"W": SubResource("AudioStream_ulh75"),
+"X": SubResource("AudioStream_h0a65"),
+"Y": SubResource("AudioStream_8q0py"),
+"Z": SubResource("AudioStream_mtrid")
+})
+metadata/_custom_type_script = "uid://bl104gyswunnu"

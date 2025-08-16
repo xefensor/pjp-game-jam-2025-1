@@ -1,25 +1,45 @@
-[gd_scene load_steps=10 format=3 uid="uid://c4knqf2fvxxai"]
+[gd_scene load_steps=18 format=3 uid="uid://c4knqf2fvxxai"]
 
 [ext_resource type="Theme" uid="uid://c1rc4nru8mcjr" path="res://keyboard_theme.tres" id="1_1bvp3"]
 [ext_resource type="Script" uid="uid://ck0ktesgcolu" path="res://main.gd" id="1_ig7tw"]
 [ext_resource type="ButtonGroup" uid="uid://dag3o807whf0g" path="res://timeline_button_group.tres" id="2_0xm2m"]
 [ext_resource type="Script" uid="uid://crhloyfrcrsdt" path="res://key_button.gd" id="3_h2yge"]
 [ext_resource type="Script" uid="uid://bl104gyswunnu" path="res://State.gd" id="3_lquwl"]
-[ext_resource type="Resource" uid="uid://cv6troa5p5hyv" path="res://timeline_states/empty.tres" id="4_5vw27"]
+[ext_resource type="Resource" uid="uid://b16nu5vfrm4ur" path="res://timeline_states/1.tres" id="4_yaehf"]
+[ext_resource type="Resource" uid="uid://wx7x6l7cp8k8" path="res://timeline_states/2.tres" id="5_074og"]
 [ext_resource type="ButtonGroup" uid="uid://dwk4xvafmp4yx" path="res://keys_button_group.tres" id="6_7mycd"]
+[ext_resource type="Resource" uid="uid://buy27ur0vltv" path="res://timeline_states/3.tres" id="6_cegan"]
+[ext_resource type="Resource" uid="uid://b1mife8wfaavl" path="res://timeline_states/4.tres" id="7_82xsv"]
 [ext_resource type="AudioStream" uid="uid://b4orjycdsc1oe" path="res://sounds/bell.wav" id="7_272bh"]
+[ext_resource type="Resource" uid="uid://c80di8u1ih62y" path="res://timeline_states/5.tres" id="8_getpj"]
 [ext_resource type="Script" uid="uid://cl418v4hrrpf5" path="res://spectrum.gd" id="9_kek77"]
+[ext_resource type="Resource" uid="uid://baff0pw17m1ce" path="res://timeline_states/6.tres" id="9_ryguw"]
+[ext_resource type="Resource" uid="uid://e8lmscfgkg4a" path="res://timeline_states/7.tres" id="10_d13ii"]
+[ext_resource type="Resource" uid="uid://bgpdus0letf46" path="res://timeline_states/8.tres" id="11_1u8w0"]
+[ext_resource type="Resource" uid="uid://b6frea06083yq" path="res://timeline_states/9.tres" id="12_0odxb"]
 
 [node name="Main" type="Control"]
 layout_mode = 3
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
+offset_left = -69.0
+offset_top = -19.0
+offset_right = -69.0
+offset_bottom = -19.0
 grow_horizontal = 2
 grow_vertical = 2
 theme = ExtResource("1_1bvp3")
 script = ExtResource("1_ig7tw")
-timeline = Array[ExtResource("3_lquwl")]([ExtResource("4_5vw27"), null, null, null, null, null, null, null, null])
+timeline = Array[ExtResource("3_lquwl")]([ExtResource("4_yaehf"), ExtResource("5_074og"), ExtResource("6_cegan"), ExtResource("7_82xsv"), ExtResource("8_getpj"), ExtResource("9_ryguw"), ExtResource("10_d13ii"), ExtResource("11_1u8w0"), ExtResource("12_0odxb")])
+
+[node name="Panel" type="Panel" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
 
 [node name="Spectrum" type="Control" parent="."]
 layout_mode = 1
@@ -378,3 +398,5 @@ metadata/_custom_type_script = "uid://crhloyfrcrsdt"
 [node name="KeyAudio" type="AudioStreamPlayer" parent="."]
 unique_name_in_owner = true
 stream = ExtResource("7_272bh")
+
+[connection signal="finished" from="KeyAudio" to="." method="_on_key_audio_finished"]
