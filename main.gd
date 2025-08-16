@@ -22,6 +22,11 @@ func _on_toggled_name(toggled_on: bool, _name: String):
 	if _name.is_valid_int():
 		state_selected = timeline[_name.to_int()-1]
 		%KeyAudio.stop()
+		
+		for button in get_tree().get_nodes_in_group("Buttons"):
+			if button.name == selected_char and button.button_pressed:
+				button.button_pressed = false
+				break
 		selected_char = ""
 	else:
 		if toggled_on:
