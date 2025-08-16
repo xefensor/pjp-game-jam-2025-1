@@ -21,6 +21,8 @@ func connect_buttons():
 func _on_toggled_name(toggled_on: bool, _name: String):
 	if _name.is_valid_int():
 		state_selected = timeline[_name.to_int()-1]
+		%KeyAudio.stop()
+		selected_char = ""
 	else:
 		if toggled_on:
 			%KeyAudio.stop()
