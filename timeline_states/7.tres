@@ -1,8 +1,9 @@
-[gd_resource type="Resource" script_class="State" load_steps=4 format=3 uid="uid://e8lmscfgkg4a"]
+[gd_resource type="Resource" script_class="State" load_steps=5 format=3 uid="uid://e8lmscfgkg4a"]
 
 [ext_resource type="Script" uid="uid://bl104gyswunnu" path="res://State.gd" id="1_1s1i7"]
 [ext_resource type="AudioStream" uid="uid://cc34d3ju2sc3" path="res://sounds/bell_chimes_10.wav" id="2_trrlq"]
 [ext_resource type="AudioStream" uid="uid://4vdk0cb7d2ao" path="res://sounds/kansas-city-spring-crowd-chatting-pedestrian-street_ramblerecordings.wav" id="2_y2lin"]
+[ext_resource type="AudioStream" uid="uid://l8wjd4i418yq" path="res://sounds/crowd-int-medium-museum-security-alarm-tone-nyc-usa.wav" id="3_cxqhs"]
 
 [resource]
 script = ExtResource("1_1s1i7")
@@ -11,7 +12,7 @@ sounds = Dictionary[String, AudioStream]({
 "B": ExtResource("2_y2lin"),
 "C": ExtResource("2_y2lin"),
 "D": ExtResource("2_y2lin"),
-"E": ExtResource("2_y2lin"),
+"E": ExtResource("3_cxqhs"),
 "F": ExtResource("2_y2lin"),
 "G": ExtResource("2_y2lin"),
 "H": ExtResource("2_y2lin"),
