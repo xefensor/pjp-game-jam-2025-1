@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="Question" load_steps=2 format=3 uid="uid://dkr3vinr4406g"]
+
+[ext_resource type="Script" uid="uid://cna78y6x0hqe" path="res://question.gd" id="1_khsp1"]
+
+[resource]
+script = ExtResource("1_khsp1")
+text = "When was SOMETHING stolen?"
+viable_answers = PackedStringArray("10:00", "1000", "10", "10 hours", "10 o\'clock")
+metadata/_custom_type_script = "uid://cna78y6x0hqe"

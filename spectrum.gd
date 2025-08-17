@@ -28,12 +28,12 @@ func _draw() -> void:
 
 		draw_rect(
 				Rect2(w * i, HEIGHT - height, w - 2, height),
-				Color.from_hsv(float(VU_COUNT * 0.6 + i * 0.5) / VU_COUNT, 0.5, 0.6)
+				Color.from_hsv(float(VU_COUNT * 0.2 + i * 0.4) / VU_COUNT, 0.5, 0.6)
 		)
 		draw_line(
 				Vector2(w * i, HEIGHT - height),
 				Vector2(w * i + w - 2, HEIGHT - height),
-				Color.from_hsv(float(VU_COUNT * 0.6 + i * 0.5) / VU_COUNT, 0.5, 1.0),
+				Color.from_hsv(float(VU_COUNT * 0.2 + i * 0.4) / VU_COUNT, 0.5, 1.0),
 				2.0,
 				true
 		)
@@ -41,12 +41,12 @@ func _draw() -> void:
 		# Draw a reflection of the bars with lower opacity.
 		draw_rect(
 				Rect2(w * i, HEIGHT, w - 2, height),
-				Color.from_hsv(float(VU_COUNT * 0.6 + i * 0.5) / VU_COUNT, 0.5, 0.6) * Color(1, 1, 1, 0.125)
+				Color.from_hsv(float(VU_COUNT * 0.2 + i * 0.4) / VU_COUNT, 0.5, 0.6) * Color(1, 1, 1, 0.125)
 		)
 		draw_line(
 				Vector2(w * i, HEIGHT + height),
 				Vector2(w * i + w - 2, HEIGHT + height),
-				Color.from_hsv(float(VU_COUNT * 0.6 + i * 0.5) / VU_COUNT, 0.5, 1.0) * Color(1, 1, 1, 0.125),
+				Color.from_hsv(float(VU_COUNT * 0.2 + i * 0.4) / VU_COUNT, 0.5, 1.0) * Color(1, 1, 1, 0.125),
 				2.0,
 				true
 		)

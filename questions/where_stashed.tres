@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="Question" load_steps=2 format=3 uid="uid://bywi3cepxps57"]
+
+[ext_resource type="Script" uid="uid://cna78y6x0hqe" path="res://question.gd" id="1_pvx7g"]
+
+[resource]
+script = ExtResource("1_pvx7g")
+text = "Where was SOMETHING taken?"
+viable_answers = PackedStringArray("place")
+metadata/_custom_type_script = "uid://cna78y6x0hqe"
