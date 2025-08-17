@@ -1,86 +1,38 @@
-[gd_resource type="Resource" script_class="State" load_steps=28 format=3 uid="uid://b6frea06083yq"]
+[gd_resource type="Resource" script_class="State" load_steps=5 format=3 uid="uid://b6frea06083yq"]
 
 [ext_resource type="Script" uid="uid://bl104gyswunnu" path="res://State.gd" id="1_t8hnb"]
 [ext_resource type="AudioStream" uid="uid://dwasd3k11rcpq" path="res://sounds/bell_chimes_30.wav" id="2_nehs2"]
-
-[sub_resource type="AudioStream" id="AudioStream_2p0yg"]
-
-[sub_resource type="AudioStream" id="AudioStream_21wap"]
-
-[sub_resource type="AudioStream" id="AudioStream_mts3j"]
-
-[sub_resource type="AudioStream" id="AudioStream_caxti"]
-
-[sub_resource type="AudioStream" id="AudioStream_j33y7"]
-
-[sub_resource type="AudioStream" id="AudioStream_5le6p"]
-
-[sub_resource type="AudioStream" id="AudioStream_t7ymc"]
-
-[sub_resource type="AudioStream" id="AudioStream_clb4e"]
-
-[sub_resource type="AudioStream" id="AudioStream_wsywy"]
-
-[sub_resource type="AudioStream" id="AudioStream_b13at"]
-
-[sub_resource type="AudioStream" id="AudioStream_f1ckc"]
-
-[sub_resource type="AudioStream" id="AudioStream_0h70q"]
-
-[sub_resource type="AudioStream" id="AudioStream_qeaaa"]
-
-[sub_resource type="AudioStream" id="AudioStream_ptr65"]
-
-[sub_resource type="AudioStream" id="AudioStream_q1rqy"]
-
-[sub_resource type="AudioStream" id="AudioStream_ykd8w"]
-
-[sub_resource type="AudioStream" id="AudioStream_vxpt6"]
-
-[sub_resource type="AudioStream" id="AudioStream_dllyh"]
-
-[sub_resource type="AudioStream" id="AudioStream_ptuuj"]
-
-[sub_resource type="AudioStream" id="AudioStream_tsiu6"]
-
-[sub_resource type="AudioStream" id="AudioStream_scu8n"]
-
-[sub_resource type="AudioStream" id="AudioStream_ulh75"]
-
-[sub_resource type="AudioStream" id="AudioStream_h0a65"]
-
-[sub_resource type="AudioStream" id="AudioStream_8q0py"]
-
-[sub_resource type="AudioStream" id="AudioStream_mtrid"]
+[ext_resource type="AudioStream" uid="uid://4vdk0cb7d2ao" path="res://sounds/kansas-city-spring-crowd-chatting-pedestrian-street_ramblerecordings.wav" id="2_upyk2"]
+[ext_resource type="AudioStream" uid="uid://v10se8v36kyn" path="res://sounds/blondpanda__super_creaky_door_02.wav" id="3_agh4q"]
 
 [resource]
 script = ExtResource("1_t8hnb")
 sounds = Dictionary[String, AudioStream]({
-"A": SubResource("AudioStream_2p0yg"),
-"B": SubResource("AudioStream_21wap"),
-"C": SubResource("AudioStream_mts3j"),
-"D": SubResource("AudioStream_caxti"),
-"E": SubResource("AudioStream_j33y7"),
-"F": SubResource("AudioStream_5le6p"),
-"G": SubResource("AudioStream_t7ymc"),
-"H": SubResource("AudioStream_clb4e"),
-"I": SubResource("AudioStream_wsywy"),
-"J": SubResource("AudioStream_b13at"),
+"A": ExtResource("2_upyk2"),
+"B": ExtResource("2_upyk2"),
+"C": ExtResource("2_upyk2"),
+"D": ExtResource("2_upyk2"),
+"E": ExtResource("2_upyk2"),
+"F": ExtResource("2_upyk2"),
+"G": ExtResource("2_upyk2"),
+"H": ExtResource("2_upyk2"),
+"I": ExtResource("2_upyk2"),
+"J": ExtResource("2_upyk2"),
 "K": ExtResource("2_nehs2"),
-"L": SubResource("AudioStream_f1ckc"),
-"M": SubResource("AudioStream_0h70q"),
-"N": SubResource("AudioStream_qeaaa"),
-"O": SubResource("AudioStream_ptr65"),
-"P": SubResource("AudioStream_q1rqy"),
-"Q": SubResource("AudioStream_ykd8w"),
-"R": SubResource("AudioStream_vxpt6"),
-"S": SubResource("AudioStream_dllyh"),
-"T": SubResource("AudioStream_ptuuj"),
-"U": SubResource("AudioStream_tsiu6"),
-"V": SubResource("AudioStream_scu8n"),
-"W": SubResource("AudioStream_ulh75"),
-"X": SubResource("AudioStream_h0a65"),
-"Y": SubResource("AudioStream_8q0py"),
-"Z": SubResource("AudioStream_mtrid")
+"L": ExtResource("2_upyk2"),
+"M": ExtResource("2_upyk2"),
+"N": ExtResource("2_upyk2"),
+"O": ExtResource("2_upyk2"),
+"P": ExtResource("2_upyk2"),
+"Q": ExtResource("2_upyk2"),
+"R": ExtResource("2_upyk2"),
+"S": ExtResource("2_upyk2"),
+"T": ExtResource("2_upyk2"),
+"U": ExtResource("2_upyk2"),
+"V": ExtResource("3_agh4q"),
+"W": ExtResource("2_upyk2"),
+"X": ExtResource("2_upyk2"),
+"Y": ExtResource("2_upyk2"),
+"Z": ExtResource("2_upyk2")
 })
 metadata/_custom_type_script = "uid://bl104gyswunnu"
