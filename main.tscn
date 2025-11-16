@@ -10,7 +10,7 @@
 [ext_resource type="ButtonGroup" uid="uid://dwk4xvafmp4yx" path="res://keys_button_group.tres" id="6_7mycd"]
 [ext_resource type="Resource" uid="uid://buy27ur0vltv" path="res://timeline_states/3.tres" id="6_cegan"]
 [ext_resource type="Resource" uid="uid://b1mife8wfaavl" path="res://timeline_states/4.tres" id="7_82xsv"]
-[ext_resource type="AudioStream" uid="uid://b4orjycdsc1oe" path="res://sounds/bell.wav" id="7_272bh"]
+[ext_resource type="AudioStream" uid="uid://b4orjycdsc1oe" path="res://sounds/bells/bell.wav" id="7_272bh"]
 [ext_resource type="Resource" uid="uid://c80di8u1ih62y" path="res://timeline_states/5.tres" id="8_getpj"]
 [ext_resource type="Script" uid="uid://cl418v4hrrpf5" path="res://spectrum.gd" id="9_kek77"]
 [ext_resource type="Resource" uid="uid://baff0pw17m1ce" path="res://timeline_states/6.tres" id="9_ryguw"]

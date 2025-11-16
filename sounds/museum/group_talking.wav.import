@@ -3,12 +3,12 @@
 importer="wav"
 type="AudioStreamWAV"
 uid="uid://dodyqmf2os4l1"
-path="res://.godot/imported/group_talking.wav-c8b5ea2f8488083197b8b47f11ebfd93.sample"
+path="res://.godot/imported/group_talking.wav-512e052fee23a08dd249037dbb102b3e.sample"
 
 [deps]
 
-source_file="res://sounds/group_talking.wav"
-dest_files=["res://.godot/imported/group_talking.wav-c8b5ea2f8488083197b8b47f11ebfd93.sample"]
+source_file="res://sounds/museum/group_talking.wav"
+dest_files=["res://.godot/imported/group_talking.wav-512e052fee23a08dd249037dbb102b3e.sample"]
 
 [params]
 

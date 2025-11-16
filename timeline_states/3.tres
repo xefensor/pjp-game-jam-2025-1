@@ -1,7 +1,7 @@
 [gd_resource type="Resource" script_class="State" load_steps=4 format=3 uid="uid://buy27ur0vltv"]
 
 [ext_resource type="Script" uid="uid://bl104gyswunnu" path="res://State.gd" id="1_xhe1l"]
-[ext_resource type="AudioStream" uid="uid://dn4taqhqjwliw" path="res://sounds/bell_chimes_9.wav" id="2_e6yih"]
+[ext_resource type="AudioStream" uid="uid://dn4taqhqjwliw" path="res://sounds/bells/bell_chimes_9.wav" id="2_e6yih"]
 [ext_resource type="AudioStream" uid="uid://4vdk0cb7d2ao" path="res://sounds/kansas-city-spring-crowd-chatting-pedestrian-street_ramblerecordings.wav" id="2_sv442"]
 
 [resource]

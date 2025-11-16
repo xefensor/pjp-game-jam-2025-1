@@ -3,12 +3,12 @@
 importer="wav"
 type="AudioStreamWAV"
 uid="uid://dn4taqhqjwliw"
-path="res://.godot/imported/bell_chimes_9.wav-448a798dbb0e29418f308ca4d0ab1040.sample"
+path="res://.godot/imported/bell_chimes_9.wav-39b6db9974ffa5985d70361b385199ae.sample"
 
 [deps]
 
-source_file="res://sounds/bell_chimes_9.wav"
-dest_files=["res://.godot/imported/bell_chimes_9.wav-448a798dbb0e29418f308ca4d0ab1040.sample"]
+source_file="res://sounds/bells/bell_chimes_9.wav"
+dest_files=["res://.godot/imported/bell_chimes_9.wav-39b6db9974ffa5985d70361b385199ae.sample"]
 
 [params]
 

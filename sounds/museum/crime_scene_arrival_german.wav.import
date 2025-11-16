@@ -3,12 +3,12 @@
 importer="wav"
 type="AudioStreamWAV"
 uid="uid://bv8ey6qo7wh4o"
-path="res://.godot/imported/crime_scene_arrival_german.wav-fafd2c591503ad55dcc291c3797535d9.sample"
+path="res://.godot/imported/crime_scene_arrival_german.wav-7fc6d473ec17404086d3f4e7963ab7ad.sample"
 
 [deps]
 
-source_file="res://sounds/crime_scene_arrival_german.wav"
-dest_files=["res://.godot/imported/crime_scene_arrival_german.wav-fafd2c591503ad55dcc291c3797535d9.sample"]
+source_file="res://sounds/museum/crime_scene_arrival_german.wav"
+dest_files=["res://.godot/imported/crime_scene_arrival_german.wav-7fc6d473ec17404086d3f4e7963ab7ad.sample"]
 
 [params]
 

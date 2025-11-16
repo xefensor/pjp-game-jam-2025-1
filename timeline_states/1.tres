@@ -2,8 +2,8 @@
 
 [ext_resource type="Script" uid="uid://bl104gyswunnu" path="res://State.gd" id="1_5wu2y"]
 [ext_resource type="AudioStream" uid="uid://4vdk0cb7d2ao" path="res://sounds/kansas-city-spring-crowd-chatting-pedestrian-street_ramblerecordings.wav" id="2_owdm3"]
-[ext_resource type="AudioStream" uid="uid://dwasd3k11rcpq" path="res://sounds/bell_chimes_30.wav" id="2_ysus3"]
-[ext_resource type="AudioStream" uid="uid://1win1ix0ddpa" path="res://sounds/guitar.wav" id="3_1nrnx"]
+[ext_resource type="AudioStream" uid="uid://dwasd3k11rcpq" path="res://sounds/bells/bell_chimes_30.wav" id="2_ysus3"]
+[ext_resource type="AudioStream" uid="uid://1win1ix0ddpa" path="res://sounds/guitar/guitar.wav" id="3_1nrnx"]
 
 [resource]
 script = ExtResource("1_5wu2y")
